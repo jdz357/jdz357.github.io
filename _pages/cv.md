@@ -11,8 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Computational Science, Engineering, and Mathematics, Oden Institute, University of Texas at Austin, 2027. Supervisor: Dr. Leszek Demkowicz (expected)
 * B.S. in Aerospace Engineering with Highest Honors, The University of Texas at Austin, 2020
+* Certificate in Computational Science and Engineering, The University of Texas at Austin, 2020
 
 
 Work experience
