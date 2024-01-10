@@ -11,14 +11,18 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computational Science, Engineering, and Mathematics, Oden Institute, University of Texas at Austin, 2027. Supervisor: Dr. Leszek Demkowicz (expected)
+* Ph.D, Computational Science, Engineering, and Mathematics, Oden Institute, University of Texas at Austin, 2027. Supervisor: Dr. Leszek Demkowicz (expected)
 * B.S. in Aerospace Engineering with Highest Honors, The University of Texas at Austin, 2020
 * Certificate in Computational Science and Engineering, The University of Texas at Austin, 2020
 
 
 Work experience
 ======
-* Summer 2015: Research Assistant
+* Summer 2024: Research Assistant
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
+* Summer 2024: Research Assistant
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
@@ -26,10 +30,9 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-* Skill 3
+* Programming Languages: Fortran, C++, Python
+* Software Pakcages: MATLAB, Git, LaTeX
+
 
 Publications
 ======
