@@ -16,7 +16,7 @@ Education
 * Certificate in Computational Science and Engineering, The University of Texas at Austin, 2020
 
 
-Work experience
+Experience
 ======
 * Summer 2024: Research Assistant
   * Github University
@@ -31,7 +31,8 @@ Work experience
 Skills
 ======
 * Programming Languages: Fortran, C++, Python
-* Software Pakcages: MATLAB, Git, LaTeX
+* Software Packages: MATLAB, Git, LaTeX, Mathematica
+* Engineering Software: ABAQUS, SolidWorks 
 
 
 Publications
