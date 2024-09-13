@@ -9,10 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+Download a PDF copy of my CV [here](paper1.pdf).
+
 Education
 ======
 **The University of Texas at Austin**
-* Ph.D., Computational Science, Engineering, and Mathematics, Supervisors: Dr. Leszek Demkowicz and Dr. George Biros. (Expected 2026)
+* Ph.D., Computational Science, Engineering, and Mathematics, Supervisors: [Dr. Leszek Demkowicz](https://users.oden.utexas.edu/~leszek/) and [Dr. George Biros](https://oden.utexas.edu/people/directory/George-Biros/). (Expected 2026)
 * M.S., Computational Science, Engineering, and Mathematics, 2023
 * B.S., Aerospace Engineering with Highest Honors, 2021
   * Certificate in Computational Science and Engineering
