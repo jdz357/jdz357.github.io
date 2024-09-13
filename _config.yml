@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Jonathan Zhang"
   avatar           : "profile.JPG"
-  bio              : "PhD Student at the Oden Institute, former intern at JP Morgan Chase & Co."
-  location         : "Austin, TX, USA"
+  bio              : "PhD Student at the Oden Institute, \n Former Quant Analytics intern at JP Morgan Chase & Co."
+  location         : "Austin, TX"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&user=A4wv_VMAAAAJ"
