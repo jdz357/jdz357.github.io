@@ -18,10 +18,8 @@ Education
 
 Experience
 ======
-* Summer 2024: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Quant Analytics Intern at JP Morgan Chase & Co
+  * This point here. 
 * Summer 2024: Research Assistant
   * Github University
   * Duties included: Tagging issues
