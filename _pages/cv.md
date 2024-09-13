@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 **The University of Texas at Austin**
-* Ph.D., Computational Science, Engineering, and Mathematics, 2026. Supervisors: Dr. Leszek Demkowicz and Dr. George Biros (expected)
+* Ph.D., Computational Science, Engineering, and Mathematics, Supervisors: Dr. Leszek Demkowicz and Dr. George Biros. (Expected 2026)
 * M.S., Computational Science, Engineering, and Mathematics, 2023
 * B.S., Aerospace Engineering with Highest Honors, 2021
   * Certificate in Computational Science and Engineering
@@ -20,7 +20,7 @@ Education
 Skills
 ======
 * Programming Languages: Proficient in Fortran. Python, MATLAB, C++
-* Software Packages: MATLAB, Git, LaTeX, Linux, Mathematica, ABAQUS, SolidWorks
+* Software Packages: NumPy, SciPy, Pandas, Git, LaTeX, Linux, Mathematica, ABAQUS, SolidWorks
 
 Experience
 ======
@@ -28,7 +28,7 @@ Experience
 * **Graduate Research Assistant** at the Oden Institute
   * Exploring new variational formulations for nonlinear elasticity problems including those using the Discontinuous Petrov-Galerkin (DPG) method to deliver optimal convergence rates with adaptive mesh refinement. (**Fortran**)
 
-* **Quant Analytics Intern** at JP Morgan Chase & Co.
+* **Quant Analytics Intern** at JP Morgan Chase & Co., Model Risk, Governance, and Review
   * Implemented a _k_-means model in **Athena** to cluster ZIP codes by land share and RVB data to evaluate CRE MFL market strength. (**Python**)
   * Identified several technical and methodological flaws in the initial classifier, impacting up to ~10% of the entire CRE portfolio. 
   * Conducted in-depth independent research on clustering algorithms and evaluation metrics.
@@ -54,12 +54,12 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* CSEM Student Forum Organizer, 
