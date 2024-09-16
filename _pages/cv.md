@@ -42,7 +42,7 @@ Experience
   * Analyzed the influence of structural dynamics on electrical chatter in a pin-receptacle using high- and low-fidelity models in SIERRA.
   * Developed a Craig-Bampton reduced-order model for the pin-receptacle, reducing compute time by 30X on Sandia’s high-performance computers.
 
-  
+  $$ f(x) = \sin(x) \int_0^\infty g(\tau) d\tau $$ 
 
 Publications
 ======
