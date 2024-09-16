@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download a PDF copy of my CV [here](https://jdz357@github.io/files/paper1.pdf).
+Download a PDF copy of my CV [here](https://jdz357.github.io/files/paper1.pdf).
 
 Education
 ======
