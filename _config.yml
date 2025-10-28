@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "https://jdz357.github.io/files/profile_sq.jpeg"
   name             : "Jonathan Zhang"
   pronouns         : # example: "she/her"  
   bio              : "PhD Candidate @ Oden Institute, Incoming QR SPG Intern @ JP Morgan"
