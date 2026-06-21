@@ -203,17 +203,15 @@
   }
 
   .visible-links {
-    display: table;
-    margin-left: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
 
     li {
-      display: table-cell;
+      display: block;
       vertical-align: middle;
 
       &:first-child {
-        font-weight: bold;
-        text-wrap: wrap;
-
         a {
           margin-left: 0;
         }
@@ -259,6 +257,10 @@
                 transform: scaleX(1); /* reveal*/
       }
     }
+  }
+
+  button:not(.hidden) + .visible-links {
+    padding-right: 3.5rem;
   }
 
   .hidden-links {

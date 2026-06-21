@@ -13,16 +13,24 @@ var $hlinks = $('#site-nav .hidden-links');
 
 var breaks = [];
 
+function visibleLinksWidth() {
+  var width = 0;
+  $vlinks.children().each(function () {
+    width += $(this).outerWidth(true);
+  });
+  return width;
+}
+
 function updateNav() {
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
   // The visible list is overflowing the nav
-  if ($vlinks.width() > availableSpace) {
+  if (visibleLinksWidth() > availableSpace) {
 
-    while ($vlinks.width() > availableSpace && $vlinks.children("*:not(.persist)").length > 0) {
+    while (visibleLinksWidth() > availableSpace && $vlinks.children("*:not(.persist)").length > 0) {
       // Record the width of the list
-      breaks.push($vlinks.width());
+      breaks.push(visibleLinksWidth());
 
       // Move item to the hidden list
       $vlinks.children("*:not(.persist)").last().prependTo($hlinks);
