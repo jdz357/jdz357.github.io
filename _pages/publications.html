@@ -11,26 +11,25 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+{% assign publications_by_date = site.publications | sort: "date" | reverse %}
 
+<h2>Published Work</h2><hr />
+{% for post in publications_by_date %}
+  {% unless post.status %}
+    {% include archive-single.html %}
+  {% endunless %}
+{% endfor %}
+
+<h2>Submitted and In Preparation</h2><hr />
+{% for post in publications_by_date %}
+  {% if post.status == "Submitted" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+{% for post in publications_by_date %}
+  {% if post.status and post.status != "Submitted" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
 

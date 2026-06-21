@@ -14,8 +14,9 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  # Hidden from the header navigation; keep the teaching page available at /teaching/.
+  # - title: "Teaching"
+  #   url: /teaching/
     
   - title: "Portfolio"
     url: /portfolio/
@@ -29,5 +30,6 @@ main:
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/
+  # Hidden from the header navigation; keep the guide page available at /markdown/.
+  # - title: "Guide"
+  #   url: /markdown/
